@@ -1,4 +1,4 @@
 package com.prizovoleg.ai.service;
 
-public class SentimentResult {
+public record SentimentResult(String sentiment, double confidence) {
 }
